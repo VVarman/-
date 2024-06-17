@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <title>Мій Блог - Про мене</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-content">
+                <h1><a href="index.html">My Life Style</a></h1>
+                <div class="social-icons">
+                    <a href="https://t.me/inoryyy" target="_blank"><img src="images/telega.png" alt="Telegram"></a>
+                    <a href="https://www.tiktok.com/@_.inoryyy._?_t=8n5txv7tuYI&_r=1" target="_blank"><img src="images/TikTok-icon-white-symbol-glyph-png.png" alt="TikTok"></a>
+                    <a href="https://www.instagram.com/_.framyyy._?igsh=Y2V2czRrbzEwЗРУж" target="_blank"><img src="images/insta.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <a href="index.html" class="nav-link">Головна</a>
+            <a href="about.html" class="nav-link">Про мене</a>
+            <a href="blog.html" class="nav-link">Блог</a>
+            <a href="index.html#contact-form">Контакти</a>
+        </nav>
+        <div class="content">
+            <h2>Про мене</h2>
+            <p>Протягом останніх дванадцяти років танці стали не лише моїм хобі, а й невід'ємною частиною мого життя. Кожен крок, кожен оберт, кожен вираз обличчя на танцювальному паркеті допомагають мені відчувати себе живим та виразним. Години тренувань, кожен ритм музики, кожен момент партнерства на танцювальному майданчику дарують мені не лише радість, а й можливість виразити свої почуття та емоції через рух.<br></p>
+            <p>У моєму житті також є місце для спорту. Граючи у волейбольній команді, я отримую неймовірне задоволення від спільної гри та досягнень у колективі. Кожна перемога відкриває нові горизонти, а кожен поразка стимулює до самовдосконалення.<br></p>
+            <p>Навчання є для мене не лише обов'язком, а й можливістю постійно розвиватися. Зараз я зосереджена на своєму навчанні на третьому курсі в ЧДБК, де набуваю нових знань та навичок, що допоможуть мені у майбутньому.<br></p>
+            <p>Проте серед усіх моїх досягнень та цілей завжди була одна особлива мрія - жити у Японії. Ця країна завжди привертала мене своєю культурою, традиціями та неповторною атмосферою. Моя душа спрагла поглибити знання про цю унікальну культуру, вивчити японську мову та зануритися у її неповторний світ. Життя в Японії - це не лише мрія, а й ціль, до якої я прагну наблизитися кожним днем.</p>
+            <div class="gallery">
+                <div class="image-container">
+                    <img src="images/collage1.jpg" alt="Photo 1" class="gallery-image">
+                </div>
+                <div class="image-container">
+                    <img src="images/collage2.jpg" alt="Photo 2" class="gallery-image">
+                </div>
+                <div class="image-container">
+                    <img src="images/collage3.jpg" alt="Photo 3" class="gallery-image">
+                </div>
+                <div class="image-container">
+                    <img src="images/collage4.jpg" alt="Photo 4" class="gallery-image">
+                </div>
+                <div class="image-container">
+                    <img src="images/collage5.jpg" alt="Photo 5" class="gallery-image">
+                </div>
+                <div class="image-container">
+                    <img src="images/collage6.jpg" alt="Photo 6" class="gallery-image">
+                </div>
+            </div>            
+        </div>
+        <div class="overlay" id="overlay">
+            <span class="close" onclick="closeOverlay()">&times;</span>
+            <div class="overlay-content">
+                <img src="" alt="Overlay Image" id="overlay-image">
+                <div class="navigation">
+                    <button onclick="prevImage()">&lt;</button>
+                    <button onclick="nextImage()">&gt;</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            &copy; 2024 Мій Блог
+        </footer>
+    </div>
+    <script src="script/navigation.js"></script>
+    <script src="script/jsgallery.js"></script>
+</body>
+</html>
+
+

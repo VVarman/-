@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: url('images/nebo-oblaka-chb-fon.jpg') no-repeat center center fixed;
+    backdrop-filter: blur(10px);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header {
+    background-color: #000; 
+    color: #fff; 
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    padding-left: 20px; 
+    font-family: 'Dancing Script', cursive; 
+    font-size: 40px; 
+}
+
+header h1 a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    transition: filter 0.3s; 
+}
+
+.social-icons a:hover {
+    filter: brightness(70%); 
+}
+
+.social-icons img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: rgba(244, 244, 244, 0.7); 
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 21px 40px;
+}
+
+nav a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-link.active {
+    background-color: #000;
+    color: #fff;
+}
+
+.content {
+    padding: 20px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.post img {
+    width: 500px;
+    height: auto;
+}
+
+.post-content {
+    flex: 1;
+    max-width: 60%;
+}
+
+.post h3 {
+    margin-top: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #fff; 
+    font-style: "Times New Roman";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.post p {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.5);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+

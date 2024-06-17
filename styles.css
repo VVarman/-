@@ -1,0 +1,244 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: url('images/nebo-oblaka-chb-fon.jpg') no-repeat center center fixed;
+    backdrop-filter: blur(10px);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+header {
+    background-color: #000; 
+    color: #fff; 
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    padding-left: 20px; 
+    font-family: 'Dancing Script', cursive; 
+    font-size: 40px; 
+}
+
+header h1 a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    transition: filter 0.3s; 
+}
+
+.social-icons a:hover {
+    filter: brightness(70%); 
+}
+
+.social-icons img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+nav {
+    background-color: rgba(244, 244, 244, 0.7); 
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 21px 40px;
+    margin: 0;
+}
+
+nav a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-link.active {
+    background-color: #000;
+    color: #fff;
+}
+
+.content {
+    padding: 20px;
+    color: #fff; 
+    box-sizing: border-box;
+}
+.content h2 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 38px;
+}
+.content p {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 24px; 
+}
+
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.post {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    width: calc(33.33% - 20px); 
+    max-width: 400px;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+}
+
+.post img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5px; /* Відступ знизу для зображень */
+}
+
+.post h3 {
+    margin-top: 0;
+    color: #fff;
+    font-style: "Times New Roman";
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+.post p {
+    color: #fff; 
+    font-size: 24px; 
+}
+
+.post-button {
+    position: absolute;
+    bottom: 10px;
+    transform: translateX(-50%);
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.post-button:hover {
+    background-color: #1f6594;
+    color: #fff;
+}
+
+.contact-form {
+    margin-top: 30px;
+    border: 2px solid #ccc; /* Додаємо рамку */
+    border-radius: 10px; /* Закруглені кути */
+    padding: 20px;
+}
+
+.contact-form legend {
+    font-weight: bold; /* Жирний текст для заголовка */
+    font-size: 18px; /* Розмір тексту для заголовка */
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    color: #ffffff; /* Чорний колір тексту для міток */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form input[type="email"] {
+    padding: 8px; /* Зменшення відступу вводу */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contact-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #000;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.5);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    flex-shrink: 0; /* Запобігти стисненню футера */
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.popup-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.popup-content button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup-content button:hover {
+    background-color: #1f6594;
+}
+
+
